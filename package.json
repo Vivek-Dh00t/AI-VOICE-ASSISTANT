@@ -1,0 +1,19 @@
+{
+  "name": "voiceguard-api",
+  "version": "1.0.0",
+  "description": "VoiceGuard AI Deepfake Detection API",
+  "main": "server.mjs",
+  "type": "module",
+  "scripts": {
+    "install-deps": "npm install",
+    "start": "node server.mjs"
+  },
+  "dependencies": {
+    "express": "^4.21.0",
+    "cors": "^2.8.5",
+    "@google/genai": "*"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
